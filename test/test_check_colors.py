@@ -24,7 +24,7 @@ def test_color_name():
     '''check, if received color equals to certain value - 3'''
     response = ColorsAPI().get_color(color_id=2)
     json_color = json.loads(response.text)['data']['name']
-    assert json_color == 'fuchsi rose', f"\nColor is not as expected"
+    assert json_color == 'fuchsia rose', f"\nColor is not as expected"
 
 
 
