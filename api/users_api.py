@@ -1,5 +1,5 @@
-from pythonProject.Repository_3.restapi_lesson.api.base_api import BaseAPI
-from pythonProject.Repository_3.restapi_lesson.utilities.decorators import auto_steps
+from api.base_api import BaseAPI
+from utilities.decorators import auto_steps
 
 @auto_steps
 class UsersApi(BaseAPI):
