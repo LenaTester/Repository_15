@@ -3,9 +3,9 @@ from http import HTTPStatus
 
 from requests import get, post
 
-from pythonProject.Repository_3.restapi_lesson.utilities.config import config
-from pythonProject.Repository_3.restapi_lesson.api.users_api import UsersApi
-from pythonProject.Repository_3.restapi_lesson.class_object.user_data_class import User
+from utilities.config import config
+from api.users_api import UsersApi
+from class_object.user_data_class import User
 
 def test_get_user_response():
     '''get all users list - 200 - 4'''
