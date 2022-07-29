@@ -1,4 +1,4 @@
-from pythonProject.Repository_3.restapi_lesson.utilities.config import config
+from utilities.config import config
 import requests
 
 
