@@ -1,0 +1,4 @@
+GET PEOPLE
+GET from BaseAPI
+BASE HEADERS
+Perform GET request

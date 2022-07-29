@@ -1,0 +1,4 @@
+GET COLORS
+GET from BaseAPI
+BASE HEADERS
+Perform GET request

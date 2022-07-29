@@ -1,0 +1,4 @@
+PATCH USER
+PATCH from BaseAPI
+BASE HEADERS
+Perform PATCH request
