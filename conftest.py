@@ -4,8 +4,8 @@ import allure
 
 import pytest
 
-from pythonProject.Repository_3.restapi_lesson.class_object.user_data_class import User
-from pythonProject.Repository_3.restapi_lesson.class_object.color_class import Color
+from class_object.user_data_class import User
+from class_object.color_class import Color
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_runtest_makereport(item, call):
