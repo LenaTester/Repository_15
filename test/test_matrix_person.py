@@ -1,6 +1,6 @@
 from http import HTTPStatus
 
-from pythonProject.Repository_3.restapi_lesson.api.matrix_person_api import MatrixPersonApi
+from api.matrix_person_api import MatrixPersonApi
 
 def test_post_matrix_person():
     '''post new matrix person - 7'''
