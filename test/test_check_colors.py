@@ -1,8 +1,8 @@
 import json
 from http import HTTPStatus
 
-from pythonProject.Repository_3.restapi_lesson.api.colors_api import ColorsAPI
-from pythonProject.Repository_3.restapi_lesson.class_object.color_class import Color
+from api.colors_api import ColorsAPI
+from class_object.color_class import Color
 
 
 def test_get_color_response():
